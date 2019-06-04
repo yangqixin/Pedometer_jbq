@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="cn.edu.bistu.step.pedometer.StepActivity">
+    <item
+        android:id="@+id/plan"
+        android:title="设置今日计划"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/history"
+        android:title="查看历史记录"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logout"
+        android:title="退出登录"
+        app:showAsAction="never"/>
+</menu>
